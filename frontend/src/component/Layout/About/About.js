@@ -8,7 +8,7 @@ import legend from "../../../images/legend.jpg"
 
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://instagram.com/meabhisingh";
+    window.location = "https://wa.me/+233547403691";
   };
   return (
     <div className="aboutSection">
@@ -26,7 +26,7 @@ const About = () => {
             />
             <Typography>LEGEND JAWAD</Typography>
             <Button onClick={visitInstagram} color="primary">
-              Visit Instagram
+              Visit WhatsApp
             </Button>
             <span>
               This is a sample ecommerce wesbite made by @Legend.
@@ -35,13 +35,13 @@ const About = () => {
           <div className="aboutSectionContainer2">
             <Typography component="h2">Our Brands</Typography>
             <a
-              href="https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw"
+              href="https://wa.me/+233547403691"
               target="blank"
             >
               <YouTubeIcon className="youtubeSvgIcon" />
             </a>
 
-            <a href="https://instagram.com/meabhisingh" target="blank">
+            <a href="https://wa.me/+233547403691" target="blank">
               <InstagramIcon className="instagramSvgIcon" />
             </a>
           </div>
