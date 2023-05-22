@@ -1,11 +1,229 @@
+
+/* Header Top Strip */
+.header-top-strip{
+
+  border-bottom: 1px solid #3b4149;
+  background-color: #131921;
+  color: white;
+  padding: 15px 0;
+  font: 400 1.2vmax "Roboto";
+
+}
+
+.Row{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.Row,a {
+text-decoration: none;
+
+}
+
+
+/* Header Upper */
+.header-upper {
+background-color: #131921;
+padding: 15px 0;
+
+}
+
+.col5 {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.searchIconBox {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  margin-right: 5px; /* Add some spacing between the search icon and the input */
+}
+
+.searchIcon {
+  width: 24px; /* Adjust the width of the search icon as needed */
+  height: 24px; 
+  background-color: #febd69;
+  /* Adjust the height of the search icon as needed */
+}
+
+
+.input-group-text{
+  padding: 3px;
+}
+
+
+
+
+
+
+
+
+.header-upper .input-group-text {
+
+  text-transform: uppercase;
+}
+.usercomponents{
+display: flex;
+gap: 10px;
+margin: 10px;
+align-items: center;
+color: white;
+}
+.usercomponents p {
+margin-bottom: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.cartContent {
+display: flex;
+flex-direction: column;
+
+}
+.cartContent >span{
+background-color: white;
+color: dark;
+}
+
+.header-upper-link{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.header-upper h2 a{
+color: #fff;
+text-decoration: none;
+}
+.col2,h2 {
+color: white;
+font: 400 2.2vmax "Roboto";
+
+}
+
+.header-upper .header-upper-link img {
+
+width: 35px;
+height: 35px;
+}
+
+.contact-inner-wrapper form .form-control:focus {
+background-color:#f5f5f7;
+border-radius: 10px;
+border-color: transparent;
+padding: 10px;
+}
+
+.form-control:focus {
+box-shadow: none;
+border-color: inherit;
+}
+
+.col5{
+  width: 41.67%;
+}
+.form-control {
+height: 50px;
+width: 35vw;
+background-color: #f5f5f7;
+color:#777777;
+font-size: 14px;
+border-radius: 10px;
+border-color: transparent;
+}
+
+.header-upper .input-group {
+margin-top: 10px;
+}
+
+.header-upper .form-control {
+border-radius: 0;
+}
+
+.header-upper .input-group-text {
+background-color: transparent;
+border: none;
+padding: 0;
+}
+.col5
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.header-upper-link img {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+
+/* Header Bottom */
+.header-bottom {
+background-color: #444;
+padding: 15px 0;
+}
+
+.menu-buttom .dropdown-toggle {
+background-color: transparent;
+border: none;
+gap: 15px;
+display: flex;
+align-items: center;
+}
+
+.menu-links a {
+color: #fff;
+text-decoration: none;
+}
+
+.menu-links a:hover {
+text-decoration: none;
+}
+
+
+
 .speedDial {
-    position: fixed;
-    right: 3vmax;
-    top: 3vmax;
-  }
-  
-  .speedDialIcon {
-    width: 56px;
-    height: 56px;
-    border-radius: 100%;
-  }
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.menu-buttom {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.menubottom{
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 30px;
+}
+
+.header-bottom .menu-links a,
+.header-bottom .dropdown button{
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  letter-spacing: 0.3;
+  text-decoration: none;
+  text-transform: uppercase;
+
+
+}
+.header-bottom{
+  background-color:#232f3e;
+}
+.ShopCat{
+   display:inline-block
+}

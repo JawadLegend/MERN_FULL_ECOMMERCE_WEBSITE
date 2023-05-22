@@ -1,12 +1,16 @@
+body{
+  overflow-y: scroll;
+}
+
+
 .LoginSignUpContainer {
     width: 100vw;
-    height: 100vh;
     max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(231, 231, 231);
-    position: fixed;
+    position: relative;
     top: 0%;
     left: 0;
   }
@@ -16,7 +20,7 @@
     width: 25vw;
     height: 70vh;
     box-sizing: border-box;
-    overflow: hidden;
+   
   }
   .login_signUp_toggle {
     display: flex;
