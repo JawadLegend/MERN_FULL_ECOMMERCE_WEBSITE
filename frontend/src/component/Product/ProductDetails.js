@@ -38,10 +38,11 @@ const ProductDetails = () => {
   const options = {
     size: "large",
     value: product.ratings,
-    readOnly: true,
+    readOnly: true, 
     precision: 0.5,
+   
   };
-  
+  console.log(product)
 
   const [quantity, setQuantity] = useState(1);
   const [open, setOpen] = useState(false);
@@ -49,7 +50,8 @@ const ProductDetails = () => {
   const [comment, setComment] = useState("");
 
   const increaseQuantity = () => {
-    if (product.Stock <= quantity) return;
+    if (product.Stock <= quantity) 
+    return;
 
     const qty = quantity + 1;
     setQuantity(qty);
@@ -68,6 +70,7 @@ const ProductDetails = () => {
     open ? setOpen(false) : setOpen(true);
   };
   const {id} = useParams();
+
   const reviewSubmitHandler = () => {
     const myForm = new FormData();
 
