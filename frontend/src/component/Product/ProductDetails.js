@@ -23,9 +23,10 @@ import { Rating } from "@material-ui/lab";
 import { NEW_REVIEW_RESET } from "../../constants/productConstants";
 import {useParams} from "react-router-dom";
 
-const ProductDetails = () => {
+const ProductDetails = ({match}) => {
   const dispatch = useDispatch();
   const alert = useAlert();
+ const params = useParams();
 
   const {product, loading, error } = useSelector(
     (state) => state.productDetails
@@ -42,7 +43,7 @@ const ProductDetails = () => {
     precision: 0.5,
    
   };
-  console.log(product)
+  
 
   const [quantity, setQuantity] = useState(1);
   const [open, setOpen] = useState(false);
@@ -69,7 +70,7 @@ const ProductDetails = () => {
   const submitReviewToggle = () => {
     open ? setOpen(false) : setOpen(true);
   };
-  const {id} = useParams();
+  const {id} = params;
 
   const reviewSubmitHandler = () => {
     const myForm = new FormData();
