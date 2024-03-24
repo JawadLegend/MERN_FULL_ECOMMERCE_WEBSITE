@@ -1,6 +1,6 @@
 # MERN E-COMMERCE TUTORIAL
 
-Hi! My name is **ALHASSAN ABDUL-JAWAD**, I have created this tutorial to teach MERN Stack.
+Hi! My name is **ALHASSAN ABDUL-JAWAD**, I have created this tutorial to add to my portfolio, feel free to learn, modify but its not meant for production purpose.
 
 # Prerequisite
 
